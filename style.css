@@ -14,6 +14,11 @@
   height: 100vh;
   background-color: hsl(212deg, 45%, 89%);
 }
+@media screen and (max-height: 600px) {
+  .container {
+    height: 600px;
+  }
+}
 .container #card {
   width: 300px;
   height: 450px;

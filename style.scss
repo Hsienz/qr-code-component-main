@@ -19,6 +19,9 @@ $font-family: 'Outfit', sans-serif;
     width: 100vw;
     height: 100vh;
     background-color: $Light-gray;
+    @media screen and (max-height: 600px ) {
+        height: 600px;
+    }
     #card {
         width: 300px;
         height: 450px;
